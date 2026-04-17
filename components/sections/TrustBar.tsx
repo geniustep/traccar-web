@@ -6,8 +6,6 @@ import { motion, useInView } from 'motion/react'
 import { Award, Clock, Wifi, Shield, Zap } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-const trustIcons = [Award, Clock, Wifi, Shield, Zap]
-
 export default function TrustBar() {
   const t = useTranslations('trust')
   const locale = useLocale()

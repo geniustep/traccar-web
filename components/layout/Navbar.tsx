@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { motion, AnimatePresence } from 'motion/react'
-import { Menu, X, Satellite, ChevronDown } from 'lucide-react'
+import { Menu, X, Satellite } from 'lucide-react'
 import { Link, usePathname } from '@/i18n/navigation'
 import LanguageSwitcher from './LanguageSwitcher'
 import { cn } from '@/lib/utils'
