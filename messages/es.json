@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "title": "ELMOGPS – Rastreo GPS Inteligente para Flotas y Vehículos",
+    "description": "Soluciones GPS premium para gestión de flotas, rastreo en tiempo real, geovallado y alertas inteligentes. Protege y optimiza tus vehículos con ELMOGPS.",
+    "keywords": "rastreo GPS, gestión de flotas, localización de vehículos, geovallado, alertas GPS"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "solutions": "Soluciones",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "faq": "FAQ",
+    "getDemo": "Solicitar Demo",
+    "getQuote": "Obtener Cotización",
+    "menu": "Menú"
+  },
+  "announcement": {
+    "text": "Nuevo: Rastreo en tiempo real con alertas instantáneas — ",
+    "cta": "Descubrir"
+  },
+  "hero": {
+    "badge": "Líder en Soluciones GPS",
+    "headline1": "Rastrea. Protege.",
+    "headline2": "Optimiza.",
+    "headline3": "Tu Flota.",
+    "subheadline": "ELMOGPS ofrece rastreo GPS inteligente, preciso y en tiempo real para tus vehículos y flotas. Reduce costos, elimina riesgos y mantén el control total — en cualquier lugar, en cualquier momento.",
+    "cta1": "Solicitar Demo Gratuita",
+    "cta2": "Ver Soluciones",
+    "stat1": { "value": "500+", "label": "Clientes satisfechos" },
+    "stat2": { "value": "10K+", "label": "Vehículos rastreados" },
+    "stat3": { "value": "99.9%", "label": "Disponibilidad" },
+    "stat4": { "value": "24/7", "label": "Soporte activo" },
+    "liveTracking": "Rastreo en vivo",
+    "activeVehicles": "Vehículos activos",
+    "vehicleLabels": ["Camión A", "Entrega B", "Flota C", "Transporte D"],
+    "vehicleStatuses": ["En ruta", "Entregando", "Activo", "En pausa"]
+  },
+  "trust": {
+    "title": "Confían en ELMOGPS",
+    "subtitle": "Empresas de todos los tamaños eligen ELMOGPS para asegurar y optimizar sus flotas",
+    "badges": {
+      "certified": "Certificado y Homologado",
+      "support": "Soporte 24/7",
+      "uptime": "99.9% Disponibilidad",
+      "secure": "Datos Seguros",
+      "realtime": "Tiempo Real"
+    }
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones GPS completas para cada necesidad",
+    "subtitle": "Desde monitoreo en tiempo real hasta análisis avanzado, nuestros servicios cubren cada aspecto de la gestión moderna de flotas.",
+    "items": {
+      "realtime": {
+        "title": "Rastreo GPS en Tiempo Real",
+        "description": "Localiza cada vehículo de tu flota con precisión métrica, en tiempo real en un mapa interactivo."
+      },
+      "fleet": {
+        "title": "Gestión de Flotas",
+        "description": "Centraliza la supervisión de todos tus vehículos. Optimiza rutas, gestiona costos y mejora la productividad."
+      },
+      "history": {
+        "title": "Historial de Viajes",
+        "description": "Accede al historial completo de desplazamientos con reproducción de trayecto, velocidad, paradas y duraciones."
+      },
+      "geofencing": {
+        "title": "Geovallado y Zonas",
+        "description": "Crea zonas geográficas virtuales y recibe alertas instantáneas cuando un vehículo entra o sale."
+      },
+      "alerts": {
+        "title": "Alertas Inteligentes",
+        "description": "Alertas por exceso de velocidad, paradas no autorizadas, salidas fuera de horario, desconexión GPS y más."
+      },
+      "driver": {
+        "title": "Comportamiento del Conductor",
+        "description": "Analiza la conducción: frenadas bruscas, aceleraciones, velocidad excesiva. Reduce accidentes y consumo."
+      },
+      "assets": {
+        "title": "Monitoreo de Activos",
+        "description": "Rastrea equipos, remolques y activos valiosos en tiempo real. Elimina pérdidas y robos."
+      },
+      "reports": {
+        "title": "Reportes y Análisis",
+        "description": "Reportes detallados automatizados: kilometraje, consumo de combustible, desempeño de conductores, costos de flota."
+      }
+    },
+    "learnMore": "Saber más",
+    "viewAll": "Ver todos los servicios"
+  },
+  "features": {
+    "badge": "Funciones Avanzadas",
+    "title": "La tecnología GPS más avanzada para tu flota",
+    "subtitle": "Una plataforma unificada que centraliza todo el rastreo, seguridad y optimización de tu flota en un solo lugar.",
+    "items": {
+      "precision": {
+        "title": "Precisión Métrica",
+        "description": "Tecnología GPS de última generación para una localización precisa a menos de 2 metros."
+      },
+      "dashboard": {
+        "title": "Panel Intuitivo",
+        "description": "Interfaz clara y moderna para gestionar toda tu flota de un vistazo, en computadora y móvil."
+      },
+      "alerts": {
+        "title": "Alertas en Tiempo Real",
+        "description": "Notificaciones instantáneas por SMS y app móvil para cada evento crítico."
+      },
+      "security": {
+        "title": "Máxima Seguridad",
+        "description": "Datos cifrados, acceso seguro, cumplimiento GDPR. Tu privacidad y datos están totalmente protegidos."
+      },
+      "mobile": {
+        "title": "App Móvil",
+        "description": "Accede a tu flota desde cualquier lugar con nuestra app iOS y Android intuitiva."
+      },
+      "integration": {
+        "title": "Integraciones Sencillas",
+        "description": "Compatible con tus sistemas actuales: ERP, TMS, software de facturación y más."
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "Cómo Funciona",
+    "title": "Operativo en 3 simples pasos",
+    "subtitle": "Desde la instalación hasta la gestión completa de tu flota, te acompañamos en cada etapa.",
+    "steps": {
+      "install": {
+        "number": "01",
+        "title": "Instalación del Rastreador",
+        "description": "Nuestros técnicos certificados instalan discretamente el dispositivo GPS en tus vehículos. Instalación rápida, sin interrupciones."
+      },
+      "connect": {
+        "number": "02",
+        "title": "Conexión a la Plataforma",
+        "description": "Accede inmediatamente a tu panel ELMOGPS. Visualiza todos tus vehículos en un mapa en tiempo real."
+      },
+      "optimize": {
+        "number": "03",
+        "title": "Rastreo y Optimización",
+        "description": "Analiza datos, recibe alertas y optimiza continuamente el rendimiento y la seguridad de tu flota."
+      }
+    }
+  },
+  "stats": {
+    "title": "Resultados medibles para tu flota",
+    "subtitle": "Nuestros clientes ven mejoras significativas en las primeras semanas.",
+    "items": {
+      "clients": { "value": 500, "suffix": "+", "label": "Empresas clientes" },
+      "vehicles": { "value": 10000, "suffix": "+", "label": "Vehículos conectados" },
+      "uptime": { "value": 99.9, "suffix": "%", "label": "Disponibilidad garantizada" },
+      "fuel": { "value": 25, "suffix": "%", "label": "Ahorro prom. combustible" },
+      "countries": { "value": 12, "suffix": "+", "label": "Países cubiertos" },
+      "support": { "value": 24, "suffix": "/7", "label": "Soporte disponible" }
+    }
+  },
+  "industries": {
+    "badge": "Sectores y Casos de Uso",
+    "title": "Soluciones adaptadas a cada industria",
+    "subtitle": "Ya sea una pyme o un gran grupo, ELMOGPS se adapta a tu sector y necesidades específicas.",
+    "items": {
+      "logistics": {
+        "title": "Logística y Transporte",
+        "description": "Optimiza entregas, reduce demoras y mejora la satisfacción del cliente con rastreo preciso en tiempo real."
+      },
+      "delivery": {
+        "title": "Entrega Última Milla",
+        "description": "Gestiona eficientemente a tus repartidores. ETA preciso, prueba de entrega, optimización de rutas."
+      },
+      "rental": {
+        "title": "Alquiler de Vehículos",
+        "description": "Protege tu flota de alquiler, monitorea el uso y recupera rápido en caso de robo."
+      },
+      "school": {
+        "title": "Transporte Escolar",
+        "description": "Mantén a los niños seguros con rastreo preciso de autobuses escolares. Alertas a padres y gestión de paradas."
+      },
+      "corporate": {
+        "title": "Flotas Corporativas",
+        "description": "Controla costos, reduce riesgos y mejora la productividad de tu flota corporativa."
+      },
+      "security": {
+        "title": "Vehículos de Seguridad",
+        "description": "Rastreo seguro para vehículos blindados, convoyes y activos de alto valor. Alertas de pánico integradas."
+      },
+      "construction": {
+        "title": "Construcción y Obra",
+        "description": "Geolocaliza tu maquinaria, previene robos y optimiza el uso en obra."
+      },
+      "field": {
+        "title": "Operaciones de Campo",
+        "description": "Optimiza la asignación de tu equipo de campo, reduce kilómetros innecesarios, mejora tiempos de respuesta."
+      }
+    }
+  },
+  "tracking": {
+    "badge": "Tecnología de Vanguardia",
+    "title": "Tu flota, visible en tiempo real",
+    "subtitle": "Visualiza cada vehículo en un mapa interactivo, recibe alertas instantáneas y accede a datos precisos en cualquier momento.",
+    "features": {
+      "live": "Mapa GPS en vivo",
+      "history": "Reproducción de trayecto",
+      "alerts": "Alertas instantáneas",
+      "reports": "Reportes automatizados"
+    },
+    "liveLabel": "En vivo",
+    "vehiclesOnline": "vehículos en línea",
+    "speed": "Velocidad",
+    "location": "Ubicación",
+    "status": "Estado",
+    "enRoute": "En ruta"
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Más de 500 empresas confían en ELMOGPS para gestionar sus flotas con precisión y eficiencia.",
+    "items": [
+      {
+        "name": "Karim B.",
+        "role": "Director de Logística",
+        "company": "TransMed Express",
+        "content": "ELMOGPS transformó nuestra gestión de flota. Redujimos el consumo de combustible en un 22% en 3 meses y nuestros conductores llegan a tiempo. La interfaz es perfectamente intuitiva.",
+        "rating": 5
+      },
+      {
+        "name": "Sophia M.",
+        "role": "Responsable de Operaciones",
+        "company": "City Delivery",
+        "content": "El rastreo en tiempo real y las alertas instantáneas cambiaron todo para nuestro equipo. Siempre sabemos exactamente dónde está cada vehículo. El soporte ELMOGPS es rápido y profesional.",
+        "rating": 5
+      },
+      {
+        "name": "Ahmed L.",
+        "role": "Gerente",
+        "company": "SafeRent Auto",
+        "content": "Para nuestro negocio de alquiler, ELMOGPS es indispensable. Recuperamos 2 vehículos robados gracias al rastreo en tiempo real. Inversión totalmente rentabilizada.",
+        "rating": 5
+      },
+      {
+        "name": "Marie T.",
+        "role": "Gerente de RRHH y Flota",
+        "company": "Groupe Construx",
+        "content": "Nuestra maquinaria se gestiona perfectamente con ELMOGPS. Los reportes de uso nos ahorraron más de 40.000 € en 6 meses. Servicio excepcional.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Todo lo que necesitas saber",
+    "subtitle": "¿Tienes una pregunta? Consulta nuestro FAQ o contacta a nuestro equipo directamente.",
+    "items": [
+      {
+        "question": "¿Cómo funciona la instalación del rastreador GPS?",
+        "answer": "Nuestros técnicos certificados van a tu ubicación. La instalación es rápida (30–60 minutos por vehículo), discreta y sin modificación permanente del vehículo. Quedas operativo de inmediato."
+      },
+      {
+        "question": "¿Qué planes de suscripción ofrecen?",
+        "answer": "Ofrecemos suscripciones mensuales y anuales sin compromiso de equipo. Nuestros planes se adaptan a todos los tamaños de flota, de 1 a 1.000+ vehículos. Contáctanos para una cotización personalizada."
+      },
+      {
+        "question": "¿Es accesible la plataforma desde el móvil?",
+        "answer": "Sí, ELMOGPS es 100% accesible desde móvil. Ofrecemos una app intuitiva para iOS y Android, además de una interfaz web responsive accesible desde cualquier dispositivo."
+      },
+      {
+        "question": "¿Están seguros mis datos?",
+        "answer": "Absolutamente. Todos tus datos están cifrados (AES-256), alojados en servidores seguros en Europa y cumplen con el GDPR. Solo tú y los usuarios autorizados pueden acceder a tu información."
+      },
+      {
+        "question": "¿Ofrecen soporte técnico?",
+        "answer": "Sí, nuestro soporte técnico está disponible 24/7 por teléfono, email y chat. Nuestros expertos GPS te acompañan en cada paso, desde la instalación hasta el uso diario."
+      },
+      {
+        "question": "¿Puedo gestionar varios vehículos en una sola plataforma?",
+        "answer": "Sí, nuestra plataforma está diseñada para gestionar de 1 a miles de vehículos desde un único panel. Crea grupos, asigna zonas y gestiona a tus conductores fácilmente."
+      }
+    ],
+    "viewAll": "Ver todas las preguntas"
+  },
+  "contact": {
+    "badge": "Contáctanos",
+    "title": "Hablemos de tu flota",
+    "subtitle": "Nuestro equipo de expertos está disponible para responder todas tus preguntas y ofrecerte una solución personalizada.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "message": "Tu mensaje",
+      "vehicles": "Número de vehículos",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando...",
+      "success": "¡Mensaje enviado con éxito! Te responderemos en 24h.",
+      "error": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+      "namePlaceholder": "Juan García",
+      "emailPlaceholder": "juan@empresa.com",
+      "phonePlaceholder": "+34 600 000 000",
+      "companyPlaceholder": "Mi Empresa",
+      "messagePlaceholder": "Describe tus necesidades de rastreo GPS..."
+    },
+    "info": {
+      "phone": "+212 5XX-XXXXXX",
+      "email": "contact@elmogps.com",
+      "whatsapp": "Contactar por WhatsApp",
+      "address": "123 Avenida de Negocios, Casablanca, Marruecos",
+      "hours": "Lun–Vie: 8h–18h | Sáb: 9h–13h"
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu gestión de flota?",
+      "subtitle": "Únete a más de 500 empresas que confían en ELMOGPS. Demo gratuita, sin compromiso.",
+      "primary": "Solicitar Demo Gratuita",
+      "secondary": "Llamarnos"
+    }
+  },
+  "footer": {
+    "tagline": "Tecnología GPS al servicio de tu crecimiento.",
+    "links": {
+      "company": "Empresa",
+      "services": "Servicios",
+      "support": "Soporte",
+      "legal": "Legal"
+    },
+    "company": {
+      "about": "Nosotros",
+      "careers": "Empleo",
+      "press": "Prensa",
+      "partners": "Socios"
+    },
+    "services": {
+      "tracking": "Rastreo GPS",
+      "fleet": "Gestión de Flota",
+      "alerts": "Alertas",
+      "reports": "Reportes"
+    },
+    "support": {
+      "docs": "Documentación",
+      "contact": "Contacto",
+      "faq": "FAQ",
+      "status": "Estado del Sistema"
+    },
+    "legal": {
+      "privacy": "Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Cookies",
+      "rgpd": "GDPR"
+    },
+    "copyright": "© 2025 ELMOGPS. Todos los derechos reservados.",
+    "madeWith": "Diseñado con pasión para tus flotas."
+  },
+  "pages": {
+    "services": {
+      "title": "Nuestros Servicios GPS",
+      "subtitle": "Soluciones completas y escalables para la gestión inteligente de tus flotas y vehículos.",
+      "hero": "Todos nuestros servicios, diseñados para ti"
+    },
+    "solutions": {
+      "title": "Soluciones por Industria",
+      "subtitle": "Soluciones GPS específicas para tu sector, desplegadas rápida y eficientemente.",
+      "hero": "La solución correcta para tu sector"
+    },
+    "about": {
+      "title": "Sobre ELMOGPS",
+      "subtitle": "Nuestra misión: hacer que la tecnología GPS sea accesible, confiable y útil para cada empresa.",
+      "hero": "Nuestra Historia",
+      "mission": "Nuestra Misión",
+      "missionText": "Permitir que cada empresa gestione su flota con precisión, eficiencia y tranquilidad a través de soluciones GPS innovadoras y accesibles.",
+      "vision": "Nuestra Visión",
+      "visionText": "Convertirnos en el socio GPS de referencia para empresas africanas y mediterráneas que buscan la excelencia operativa.",
+      "values": "Nuestros Valores",
+      "team": "Nuestro Equipo",
+      "teamSubtitle": "Un equipo apasionado por la tecnología y dedicado a tu éxito."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Encuentra rápidamente respuestas a tus preguntas sobre nuestras soluciones GPS.",
+      "hero": "FAQ – Todo sobre ELMOGPS",
+      "stillQuestion": "¿Aún tienes preguntas?",
+      "stillQuestionSub": "Nuestro equipo está disponible 24/7 para responderte.",
+      "contactUs": "Contactar a nuestro equipo"
+    }
+  }
+}

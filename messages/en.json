@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "title": "ELMOGPS – Smart GPS Tracking for Fleets & Vehicles",
+    "description": "Premium GPS solutions for fleet management, real-time tracking, geofencing, and smart alerts. Protect and optimize your vehicles with ELMOGPS.",
+    "keywords": "GPS tracking, fleet management, vehicle tracking, geofencing, GPS alerts"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "getDemo": "Request a Demo",
+    "getQuote": "Get a Quote",
+    "menu": "Menu"
+  },
+  "announcement": {
+    "text": "New: Real-time tracking with instant alerts — ",
+    "cta": "Discover"
+  },
+  "hero": {
+    "badge": "GPS Solutions Leader",
+    "headline1": "Track. Protect.",
+    "headline2": "Optimize.",
+    "headline3": "Your Fleet.",
+    "subheadline": "ELMOGPS delivers intelligent, precise, real-time GPS tracking for your vehicles and fleets. Cut costs, eliminate risks, and maintain full control — everywhere, at any time.",
+    "cta1": "Request a Free Demo",
+    "cta2": "Explore Solutions",
+    "stat1": { "value": "500+", "label": "Happy Clients" },
+    "stat2": { "value": "10K+", "label": "Vehicles Tracked" },
+    "stat3": { "value": "99.9%", "label": "Uptime" },
+    "stat4": { "value": "24/7", "label": "Active Support" },
+    "liveTracking": "Live Tracking",
+    "activeVehicles": "Active vehicles",
+    "vehicleLabels": ["Truck A", "Delivery B", "Fleet C", "Transport D"],
+    "vehicleStatuses": ["En Route", "Delivering", "Active", "On Break"]
+  },
+  "trust": {
+    "title": "Trusted by Leading Companies",
+    "subtitle": "Businesses of all sizes choose ELMOGPS to secure and optimize their fleets",
+    "badges": {
+      "certified": "Certified & Approved",
+      "support": "24/7 Support",
+      "uptime": "99.9% Uptime",
+      "secure": "Secure Data",
+      "realtime": "Real-Time"
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Complete GPS solutions for every need",
+    "subtitle": "From real-time monitoring to advanced analytics, our services cover every aspect of modern fleet management.",
+    "items": {
+      "realtime": {
+        "title": "Real-Time GPS Tracking",
+        "description": "Locate every vehicle in your fleet with metric precision, in real time on an interactive map."
+      },
+      "fleet": {
+        "title": "Fleet Management",
+        "description": "Centralize supervision of all your vehicles. Optimize routes, manage costs, and improve productivity."
+      },
+      "history": {
+        "title": "Trip History",
+        "description": "Access complete travel history with trip replay, speed, stops, and durations."
+      },
+      "geofencing": {
+        "title": "Geofencing & Zones",
+        "description": "Create virtual geographic zones and receive instant alerts when a vehicle enters or exits."
+      },
+      "alerts": {
+        "title": "Smart Alerts",
+        "description": "Alerts for speeding, unauthorized stops, out-of-hours departures, GPS disconnection, and more."
+      },
+      "driver": {
+        "title": "Driver Behavior",
+        "description": "Analyze driving habits: harsh braking, acceleration, speeding. Reduce accidents and fuel costs."
+      },
+      "assets": {
+        "title": "Asset Monitoring",
+        "description": "Track equipment, trailers, and valuable assets in real time. Eliminate losses and theft."
+      },
+      "reports": {
+        "title": "Reports & Analytics",
+        "description": "Automated detailed reports: mileage, fuel consumption, driver performance, fleet costs."
+      }
+    },
+    "learnMore": "Learn more",
+    "viewAll": "View all services"
+  },
+  "features": {
+    "badge": "Advanced Features",
+    "title": "The most advanced GPS technology for your fleet",
+    "subtitle": "A unified platform that centralizes all tracking, security, and fleet optimization in one place.",
+    "items": {
+      "precision": {
+        "title": "Metric Precision",
+        "description": "Latest-generation GPS technology for location accuracy within 2 meters."
+      },
+      "dashboard": {
+        "title": "Intuitive Dashboard",
+        "description": "Clear modern interface to manage your entire fleet at a glance, on desktop and mobile."
+      },
+      "alerts": {
+        "title": "Real-Time Alerts",
+        "description": "Instant notifications via SMS and mobile app for every critical event."
+      },
+      "security": {
+        "title": "Maximum Security",
+        "description": "Encrypted data, secure access, GDPR compliant. Your privacy and data are fully protected."
+      },
+      "mobile": {
+        "title": "Mobile App",
+        "description": "Access your fleet from anywhere with our intuitive iOS and Android app."
+      },
+      "integration": {
+        "title": "Easy Integrations",
+        "description": "Compatible with your existing systems: ERP, TMS, billing software, and more."
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "title": "Up and running in 3 simple steps",
+    "subtitle": "From installation to full fleet management, we guide you every step of the way.",
+    "steps": {
+      "install": {
+        "number": "01",
+        "title": "Tracker Installation",
+        "description": "Our certified technicians discreetly install the GPS unit in your vehicles. Quick installation, no disruption to your operations."
+      },
+      "connect": {
+        "number": "02",
+        "title": "Platform Connection",
+        "description": "Immediately access your ELMOGPS dashboard. View all your vehicles on a real-time map."
+      },
+      "optimize": {
+        "number": "03",
+        "title": "Track & Optimize",
+        "description": "Analyze data, receive alerts, and continuously optimize the performance and safety of your fleet."
+      }
+    }
+  },
+  "stats": {
+    "title": "Measurable results for your fleet",
+    "subtitle": "Our clients see significant improvements within the first few weeks.",
+    "items": {
+      "clients": { "value": 500, "suffix": "+", "label": "Client companies" },
+      "vehicles": { "value": 10000, "suffix": "+", "label": "Connected vehicles" },
+      "uptime": { "value": 99.9, "suffix": "%", "label": "Guaranteed uptime" },
+      "fuel": { "value": 25, "suffix": "%", "label": "Avg. fuel savings" },
+      "countries": { "value": 12, "suffix": "+", "label": "Countries covered" },
+      "support": { "value": 24, "suffix": "/7", "label": "Support available" }
+    }
+  },
+  "industries": {
+    "badge": "Industries & Use Cases",
+    "title": "Solutions tailored to every industry",
+    "subtitle": "Whether you're an SME or a large corporation, ELMOGPS adapts to your sector and specific needs.",
+    "items": {
+      "logistics": {
+        "title": "Logistics & Transport",
+        "description": "Optimize deliveries, reduce delays, and improve customer satisfaction with precise real-time tracking."
+      },
+      "delivery": {
+        "title": "Last-Mile Delivery",
+        "description": "Efficiently manage your couriers and delivery drivers. Accurate ETA, proof of delivery, route optimization."
+      },
+      "rental": {
+        "title": "Vehicle Rental",
+        "description": "Protect your rental fleet, monitor usage, and recover quickly in case of theft."
+      },
+      "school": {
+        "title": "School Transport",
+        "description": "Keep children safe with precise school bus tracking. Parent alerts and stop management."
+      },
+      "corporate": {
+        "title": "Corporate Fleets",
+        "description": "Control costs, reduce risks, and improve productivity of your corporate fleet."
+      },
+      "security": {
+        "title": "Security Vehicles",
+        "description": "Secure tracking for armored vehicles, convoys, and high-value assets. Integrated panic button alerts."
+      },
+      "construction": {
+        "title": "Construction & BTP",
+        "description": "Geolocate your construction equipment, prevent theft, and optimize on-site utilization."
+      },
+      "field": {
+        "title": "Field Operations",
+        "description": "Optimize your field team assignments, reduce unnecessary mileage, improve response times."
+      }
+    }
+  },
+  "tracking": {
+    "badge": "Cutting-Edge Technology",
+    "title": "Your fleet, visible in real time",
+    "subtitle": "View every vehicle on an interactive map, receive instant alerts, and access precise data at any time.",
+    "features": {
+      "live": "Live GPS Map",
+      "history": "Trip Replay",
+      "alerts": "Instant Alerts",
+      "reports": "Automated Reports"
+    },
+    "liveLabel": "Live",
+    "vehiclesOnline": "vehicles online",
+    "speed": "Speed",
+    "location": "Location",
+    "status": "Status",
+    "enRoute": "En Route"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What our clients say",
+    "subtitle": "Over 500 companies trust ELMOGPS to manage their fleets with precision and efficiency.",
+    "items": [
+      {
+        "name": "Karim B.",
+        "role": "Logistics Director",
+        "company": "TransMed Express",
+        "content": "ELMOGPS transformed our fleet management. We reduced fuel consumption by 22% in 3 months and our drivers arrive on time. The interface is perfectly intuitive.",
+        "rating": 5
+      },
+      {
+        "name": "Sophia M.",
+        "role": "Operations Manager",
+        "company": "City Delivery",
+        "content": "Real-time tracking and instant alerts changed everything for our team. We always know exactly where every vehicle is. ELMOGPS support is responsive and professional.",
+        "rating": 5
+      },
+      {
+        "name": "Ahmed L.",
+        "role": "Owner",
+        "company": "SafeRent Auto",
+        "content": "For our rental business, ELMOGPS is essential. We recovered 2 stolen vehicles thanks to real-time tracking. Investment well worth it.",
+        "rating": 5
+      },
+      {
+        "name": "Marie T.",
+        "role": "HR & Fleet Manager",
+        "company": "Groupe Construx",
+        "content": "Our construction equipment is perfectly managed with ELMOGPS. Usage reports saved us over €40,000 in 6 months. Exceptional service.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Everything you need to know",
+    "subtitle": "Have a question? Check our FAQ or contact our team directly.",
+    "items": [
+      {
+        "question": "How does GPS tracker installation work?",
+        "answer": "Our certified technicians come to you directly. Installation is quick (30–60 minutes per vehicle), discreet, and without permanent vehicle modification. You're operational immediately after."
+      },
+      {
+        "question": "What subscription plans do you offer?",
+        "answer": "We offer monthly and annual subscriptions with no hardware commitment. Our plans are tailored to all fleet sizes, from 1 to 1,000+ vehicles. Contact us for a personalized quote."
+      },
+      {
+        "question": "Is the platform accessible on mobile?",
+        "answer": "Yes, ELMOGPS is 100% mobile accessible. We offer an intuitive iOS and Android app, as well as a responsive web interface accessible from any device."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Absolutely. All your data is encrypted (AES-256), hosted on secure servers in Europe, and GDPR compliant. Only you and authorized users can access your information."
+      },
+      {
+        "question": "Do you offer technical support?",
+        "answer": "Yes, our technical support is available 24/7 by phone, email, and chat. Our GPS experts guide you at every step, from installation to daily use."
+      },
+      {
+        "question": "Can I manage multiple vehicles on one platform?",
+        "answer": "Yes, our platform is designed to manage from 1 to thousands of vehicles from a single dashboard. Create groups, assign zones, and manage your drivers easily."
+      }
+    ],
+    "viewAll": "View all questions"
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Let's talk about your fleet",
+    "subtitle": "Our expert team is available to answer all your questions and offer a tailored solution.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Your Message",
+      "vehicles": "Number of vehicles",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Message sent successfully! We'll get back to you within 24h.",
+      "error": "An error occurred. Please try again.",
+      "namePlaceholder": "John Smith",
+      "emailPlaceholder": "john@company.com",
+      "phonePlaceholder": "+1 555 000 0000",
+      "companyPlaceholder": "My Company",
+      "messagePlaceholder": "Describe your GPS tracking needs..."
+    },
+    "info": {
+      "phone": "+212 5XX-XXXXXX",
+      "email": "contact@elmogps.com",
+      "whatsapp": "Contact on WhatsApp",
+      "address": "123 Business Avenue, Casablanca, Morocco",
+      "hours": "Mon–Fri: 8am–6pm | Sat: 9am–1pm"
+    },
+    "cta": {
+      "title": "Ready to transform your fleet management?",
+      "subtitle": "Join 500+ companies that trust ELMOGPS. Free demo, no commitment.",
+      "primary": "Request a Free Demo",
+      "secondary": "Call Us"
+    }
+  },
+  "footer": {
+    "tagline": "GPS technology powering your growth.",
+    "links": {
+      "company": "Company",
+      "services": "Services",
+      "support": "Support",
+      "legal": "Legal"
+    },
+    "company": {
+      "about": "About",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners"
+    },
+    "services": {
+      "tracking": "GPS Tracking",
+      "fleet": "Fleet Management",
+      "alerts": "Alerts",
+      "reports": "Reports"
+    },
+    "support": {
+      "docs": "Documentation",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "status": "System Status"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies",
+      "rgpd": "GDPR"
+    },
+    "copyright": "© 2025 ELMOGPS. All rights reserved.",
+    "madeWith": "Crafted with passion for your fleets."
+  },
+  "pages": {
+    "services": {
+      "title": "Our GPS Services",
+      "subtitle": "Complete and scalable solutions for intelligent management of your fleets and vehicles.",
+      "hero": "All our services, designed for you"
+    },
+    "solutions": {
+      "title": "Industry Solutions",
+      "subtitle": "GPS solutions specific to your industry, deployed quickly and efficiently.",
+      "hero": "The right solution for your sector"
+    },
+    "about": {
+      "title": "About ELMOGPS",
+      "subtitle": "Our mission: make GPS technology accessible, reliable, and useful for every business.",
+      "hero": "Our Story",
+      "mission": "Our Mission",
+      "missionText": "Enable every company to manage its fleet with precision, efficiency, and peace of mind through innovative and accessible GPS solutions.",
+      "vision": "Our Vision",
+      "visionText": "Become the reference GPS partner for African and Mediterranean companies seeking operational excellence.",
+      "values": "Our Values",
+      "team": "Our Team",
+      "teamSubtitle": "A passionate tech team dedicated to your success."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quickly find answers to your questions about our GPS solutions.",
+      "hero": "FAQ – Everything you need to know about ELMOGPS",
+      "stillQuestion": "Still have a question?",
+      "stillQuestionSub": "Our team is available 24/7 to answer you.",
+      "contactUs": "Contact our team"
+    }
+  }
+}
