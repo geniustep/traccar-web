@@ -1,5 +1,4 @@
 import { setRequestLocale } from 'next-intl/server'
-import AnnouncementBar from '@/components/sections/AnnouncementBar'
 import Navbar from '@/components/layout/Navbar'
 import Hero from '@/components/sections/Hero'
 import TrustBar from '@/components/sections/TrustBar'
@@ -24,8 +23,7 @@ export default async function HomePage({
 
   return (
     <main className="min-h-screen">
-      <AnnouncementBar />
-      <Navbar />
+      <Navbar showAnnouncement />
       <Hero />
       <TrustBar />
       <Services />

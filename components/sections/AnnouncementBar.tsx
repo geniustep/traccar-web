@@ -1,17 +1,26 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { motion, AnimatePresence } from 'motion/react'
 import { X, Zap } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
 
-export default function AnnouncementBar() {
+type AnnouncementBarProps = {
+  /** Fired when visibility changes (including first paint) so the header can sync layout (e.g. mobile menu top offset) */
+  onVisibilityChange?: (visible: boolean) => void
+}
+
+export default function AnnouncementBar({ onVisibilityChange }: AnnouncementBarProps) {
   const t = useTranslations('announcement')
   const locale = useLocale()
   const isRTL = locale === 'ar'
   const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    onVisibilityChange?.(visible)
+  }, [visible, onVisibilityChange])
 
   return (
     <AnimatePresence>
@@ -38,6 +47,7 @@ export default function AnnouncementBar() {
               </Link>
             </div>
             <button
+              type="button"
               onClick={() => setVisible(false)}
               className="shrink-0 text-white/70 hover:text-white transition-colors"
               aria-label="Close"

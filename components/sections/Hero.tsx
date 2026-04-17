@@ -48,7 +48,7 @@ export default function Hero() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-blue-600/5 blur-3xl" />
       </div>
 
-      <div className="container-custom relative z-10 pt-28 pb-20">
+      <div className="container-custom relative z-10 pt-36 pb-20">
         <div className={cn('grid lg:grid-cols-2 gap-12 lg:gap-16 items-center', isRTL && 'lg:grid-cols-2')}>
 
           {/* Left: Content */}

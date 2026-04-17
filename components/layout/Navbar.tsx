@@ -6,15 +6,25 @@ import { motion, AnimatePresence } from 'motion/react'
 import { Menu, X, Satellite } from 'lucide-react'
 import { Link, usePathname } from '@/i18n/navigation'
 import LanguageSwitcher from './LanguageSwitcher'
+import AnnouncementBar from '@/components/sections/AnnouncementBar'
 import { cn } from '@/lib/utils'
 
-export default function Navbar() {
+type NavbarProps = {
+  /** Home page: announcement strip above the nav row inside the same fixed header */
+  showAnnouncement?: boolean
+}
+
+export default function Navbar({ showAnnouncement = false }: NavbarProps) {
   const t = useTranslations('nav')
   const locale = useLocale()
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [announcementVisible, setAnnouncementVisible] = useState(true)
   const isRTL = locale === 'ar'
+
+  const mobileMenuTop =
+    showAnnouncement && announcementVisible ? 'top-28' : 'top-16'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
@@ -41,17 +51,23 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
-          scrolled
-            ? 'bg-brand-primary/95 backdrop-blur-xl shadow-lg shadow-black/20 border-b border-white/5'
-            : 'bg-transparent'
-        )}
+        className="fixed top-0 left-0 right-0 z-50"
       >
-        <div className="container-custom">
-          <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 group">
+        {showAnnouncement && (
+          <AnnouncementBar onVisibilityChange={setAnnouncementVisible} />
+        )}
+        <div
+          className={cn(
+            'transition-all duration-500',
+            scrolled
+              ? 'bg-brand-primary/95 backdrop-blur-xl shadow-lg shadow-black/20 border-b border-white/5'
+              : 'bg-transparent'
+          )}
+        >
+          <div className="container-custom">
+            <div className="flex items-center justify-between h-16 md:h-20">
+              {/* Logo */}
+              <Link href="/" className="flex items-center gap-2.5 group">
               <div className="relative">
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-electric-500 to-cyan-400 flex items-center justify-center shadow-glow-blue group-hover:scale-110 transition-transform duration-300">
                   <Satellite className="w-4 h-4 text-white" />
@@ -105,6 +121,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        </div>
       </motion.header>
 
       {/* Mobile Menu */}
@@ -115,7 +132,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="fixed inset-x-0 top-16 z-40 md:hidden"
+            className={cn('fixed inset-x-0 z-40 md:hidden', mobileMenuTop)}
           >
             <div className="bg-brand-primary/98 backdrop-blur-xl border-b border-white/10 shadow-2xl">
               <nav className="container-custom py-4 flex flex-col gap-1">
