@@ -11,7 +11,7 @@ const fadeUp = {
   visible: (i = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.12, duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+    transition: { delay: i * 0.12, duration: 0.7, ease: [0.22, 1, 0.36, 1] as const },
   }),
 }
 
@@ -171,7 +171,7 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9, x: isRTL ? -40 : 40 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
-            transition={{ delay: 0.4, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ delay: 0.4, duration: 0.9, ease: [0.22, 1, 0.36, 1] as const }}
             className={cn('relative', isRTL && 'order-1 lg:order-1')}
           >
             <div className="relative aspect-[4/3] max-w-lg mx-auto">
