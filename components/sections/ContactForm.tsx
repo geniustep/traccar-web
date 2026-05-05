@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from 'next-intl'
 import { motion } from 'motion/react'
 import { Send, Phone, Mail, MapPin, MessageCircle, Clock, CheckCircle } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { SITE_PHONE_TEL, SITE_WHATSAPP_URL } from '@/lib/site-phone'
 
 export default function ContactForm() {
   const t = useTranslations('contact')
@@ -18,12 +19,22 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setStatus('loading')
-    await new Promise((r) => setTimeout(r, 1500))
-    setStatus('success')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, locale }),
+      })
+      if (!res.ok) throw new Error('request_failed')
+      setStatus('success')
+    } catch {
+      setStatus('error')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }))
+    setStatus((s) => (s === 'error' ? 'idle' : s))
   }
 
   const inputClass = cn(
@@ -55,7 +66,7 @@ export default function ContactForm() {
             {/* Contact details */}
             <div className="space-y-4">
               {[
-                { icon: Phone, value: t('info.phone'), href: `tel:${t('info.phone')}` },
+                { icon: Phone, value: t('info.phone'), href: `tel:${SITE_PHONE_TEL}` },
                 { icon: Mail, value: t('info.email'), href: `mailto:${t('info.email')}` },
                 { icon: MapPin, value: t('info.address'), href: '#' },
                 { icon: Clock, value: t('info.hours'), href: '#' },
@@ -78,7 +89,7 @@ export default function ContactForm() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/212500000000"
+              href={SITE_WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -198,6 +209,15 @@ export default function ContactForm() {
                       dir={isRTL ? 'rtl' : 'ltr'}
                     />
                   </div>
+
+                  {status === 'error' && (
+                    <p
+                      role="alert"
+                      className={cn('text-sm text-red-600 bg-red-50 border border-red-100 rounded-xl px-4 py-3', isRTL && 'text-right')}
+                    >
+                      {t('form.error')}
+                    </p>
+                  )}
 
                   <button
                     type="submit"

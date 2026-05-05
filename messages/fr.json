@@ -293,12 +293,12 @@
       "error": "Une erreur s'est produite. Veuillez réessayer.",
       "namePlaceholder": "Jean Dupont",
       "emailPlaceholder": "jean.dupont@entreprise.com",
-      "phonePlaceholder": "+33 6 00 00 00 00",
+      "phonePlaceholder": "06 61 33 98 92",
       "companyPlaceholder": "Mon Entreprise",
       "messagePlaceholder": "Décrivez vos besoins en suivi GPS..."
     },
     "info": {
-      "phone": "+212 5XX-XXXXXX",
+      "phone": "06 61 33 98 92",
       "email": "contact@elmogps.com",
       "whatsapp": "Contacter sur WhatsApp",
       "address": "123 Avenue des Affaires, Casablanca, Maroc",

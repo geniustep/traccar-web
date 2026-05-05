@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { Satellite, Mail, Phone, MapPin, MessageCircle } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { SITE_PHONE_TEL, SITE_WHATSAPP_URL } from '@/lib/site-phone'
 
 export default function Footer() {
   const t = useTranslations()
@@ -72,7 +73,7 @@ export default function Footer() {
             {/* Contact info */}
             <div className={cn('mt-6 space-y-3', isRTL && 'items-end')}>
               <a
-                href={`tel:${t('contact.info.phone')}`}
+                href={`tel:${SITE_PHONE_TEL}`}
                 className={cn(
                   'flex items-center gap-3 text-white/50 hover:text-electric-400 text-sm transition-colors',
                   isRTL && 'flex-row-reverse justify-end'
@@ -104,7 +105,7 @@ export default function Footer() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/212500000000"
+              href={SITE_WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={cn(

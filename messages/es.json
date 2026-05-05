@@ -293,12 +293,12 @@
       "error": "Ocurrió un error. Por favor, inténtalo de nuevo.",
       "namePlaceholder": "Juan García",
       "emailPlaceholder": "juan@empresa.com",
-      "phonePlaceholder": "+34 600 000 000",
+      "phonePlaceholder": "06 61 33 98 92",
       "companyPlaceholder": "Mi Empresa",
       "messagePlaceholder": "Describe tus necesidades de rastreo GPS..."
     },
     "info": {
-      "phone": "+212 5XX-XXXXXX",
+      "phone": "06 61 33 98 92",
       "email": "contact@elmogps.com",
       "whatsapp": "Contactar por WhatsApp",
       "address": "123 Avenida de Negocios, Casablanca, Marruecos",

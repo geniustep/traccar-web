@@ -6,6 +6,7 @@ import { motion, useInView } from 'motion/react'
 import { ArrowRight, Phone, MessageCircle } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
+import { SITE_PHONE_TEL, SITE_WHATSAPP_URL } from '@/lib/site-phone'
 
 export default function ContactCTA() {
   const t = useTranslations('contact.cta')
@@ -52,7 +53,7 @@ export default function ContactCTA() {
             </Link>
 
             <a
-              href="https://wa.me/212500000000"
+              href={SITE_WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -67,7 +68,7 @@ export default function ContactCTA() {
             </a>
 
             <a
-              href="tel:+212500000000"
+              href={`tel:${SITE_PHONE_TEL}`}
               className={cn(
                 'group inline-flex items-center gap-2 bg-white/5 hover:bg-white/10',
                 'border border-white/10 hover:border-white/20 text-white font-semibold px-6 py-4 rounded-xl transition-all duration-300',
